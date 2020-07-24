@@ -75,7 +75,6 @@ mark{
     background-image: url("../img/ian-dooley-k8OCHhEymME-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: center;    
 }
 #logo{
@@ -162,7 +161,6 @@ mark{
     background-image: url("../img/laura-chouette-3rSc8jGIVHI-unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: top center; 
     background-color: black;
     color: white;
@@ -254,7 +252,6 @@ mark{
     background-image: url("../img/—Pngtree—dotted\ line\ pattern_3633087.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: top center;
     background-color: var(--light-pink);
 }
@@ -319,9 +316,6 @@ mark{
 
 
 @media screen and (max-width: 1000px) {
-    #titlePage{
-        background-size: contain;  
-    }
     #socialBar{
         margin-top: 55vh;
         position: relative;
@@ -346,9 +340,6 @@ mark{
     }
     #indexBg{
         width: 90vw;
-    }
-    #pieceOne{
-        background-size: contain;        
     }
     #pieceOne h3{
         font-size: 5em;
@@ -376,9 +367,7 @@ mark{
         border: 0;
     }
     #pieceFour{
-        background-size: contain;
         background-repeat: repeat;
-
     }
     #pieceFourImgs img{
         max-width: 80%;
