@@ -26,6 +26,9 @@ mark{
     margin-right: auto;
     text-align: center;
 }
+.borderTop{
+    border-top: black 25px dotted;
+}
 .indexTitle{
     font-family: var(--main-font);
     font-size: 2em;
@@ -162,7 +165,7 @@ mark{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center; 
-    background-color: black;
+    background-color: white;
     color: white;
 }
 #pieceOne h3{
