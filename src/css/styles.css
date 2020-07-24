@@ -1,0 +1,380 @@
+:root {
+    --main-font: avenir black;  /* var(--main-font) */
+    --second-font: avenir light;    /* var(--second-pink) */
+    --light-pink: #F3D5DD;  /* var(--light-pink) */
+    --dark-pink: #EEC2CF;   /* var(--dark-pink) */
+    --grey-accent: #828282;  /* var(--grey-accent) */
+  }
+*{
+padding: 0;
+margin: 0; 
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style-type: none;
+}
+/* classes */
+.centered{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.indexTitle{
+    font-family: var(--main-font);
+    font-size: 2em;
+    text-shadow: -3px 3px var(--grey-accent);
+    margin: 0 10vw;
+}
+.indexTitle:hover{
+  transform: scale(1.2);
+}
+.indexAuthor{
+    font-family: var(--second-font);
+    font-size: 1.5em;
+    margin-bottom: 2.5em;
+}
+.support{
+    font-family: var(--second-font);
+    font-style: italic;
+    text-decoration: underline;
+}
+.artistLinks{
+    font-size: 1.05em;
+    font-family: var(--second-font);
+}
+.artistLinks img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: -3px 3px var(--dark-pink);
+    background-color: var(--dark-pink);
+}
+.artistLinks img:hover{
+    transform: scale(1.25);
+}
+.dropCap{
+    font-weight: 900;
+}
+/* ID's */
+/* title page */
+#titlePage{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    background-color: var(--light-pink);
+    background-image: url("../img/ian-dooley-k8OCHhEymME-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;    
+}
+#logo{
+    width: 25vw;
+    height: 20vw;
+    padding: 0.5em;
+    font-family: var(--main-font);
+    border-radius: 15px;
+    border: white;
+    border-top: 20px;
+    border-right: 0;
+    border-bottom: 20px;
+    border-left: 0;
+    border-style: solid;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+#logo h1{
+    font-size: 10vw;
+    line-height: 0.9em;
+}
+#socialBar{
+    bottom: 0;
+    position: absolute;
+}
+#socialBar img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: -3px 3px var(--dark-pink);
+}
+#socialBar img:hover{
+    transform: scale(1.25);
+}
+#indexTab{
+    padding: 1vw; 
+    margin-right: 1vw;
+    border-radius: 15px 15px 0 0;
+    border: var(--dark-pink) 3px solid;
+    border-bottom: 0;
+    color: var(--light-pink);
+    background-color: white;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}
+#indexTab p{
+    font-family: var(--main-font);
+    font-size: 1em;
+}
+/* Table of Contents page */
+#index{
+    width: 100vw;
+    height: auto;
+    padding-bottom: 1em;
+    color:  var(--dark-pink);
+    text-align: center;
+    background-color: var(--light-pink);
+}
+#indexBg{
+    width: 50vw;
+    height: auto;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-radius: 15px;
+    color:  var(--dark-pink);
+    text-align: center;
+    background-color: whitesmoke;
+}
+#index h2{
+    font-size: 4vw;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    text-shadow: -3px 3px var(--grey-accent);
+    border-bottom: var(--light-pink) 5px dashed;
+    padding: 0.5em 0;
+    margin-bottom: 0.5em;
+}
+/* Piece One */
+#pieceOne{
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-image: url("../img/laura-chouette-3rSc8jGIVHI-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center; 
+    color: white;
+}
+#pieceOne h3{
+    font-size: 15em;
+    font-family: var(--main-font);
+    text-align: left;
+    text-transform: uppercase;
+    text-shadow: -3px 3px var(--dark-pink);
+    margin-bottom: 1vw;
+    padding-top: 2.5vh;
+    line-height: 0.75em;
+}
+#pieceOne h4{
+    font-size: 3em;
+    font-family: var(--second-font);
+    text-align: left;
+    margin-left:  5vw; 
+    margin-bottom: 1em;  
+}
+#pieceOneBody{
+    font-size: 2em;
+    font-family: var(--second-font);
+    margin-bottom: 1em; 
+}
+mark{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.05);
+}
+/* piece two */
+#pieceTwo{
+    Padding: 0 15%;
+    background-color: whitesmoke; 
+}
+#pieceTwo h3{
+    font-size: 4em;
+    font-family: var(--main-font);
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -3px 3px var(--dark-pink);
+}
+#pieceTwo h4{
+    font-size: 1.5em;
+    font-family: var(--second-font);
+    text-transform: uppercase;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    line-height: 0.75em;
+}
+#pieceTwoImg{
+    width: 40vw;
+    margin-bottom: 4vh;
+}
+#pieceTwoBody{
+    font-size: 1.2em;
+    text-align: left;
+    font-family: var(--second-font);
+}
+
+/* Piece Three */
+#pieceThree{
+    width: 100vw;
+    height: auto;
+    background-color: var(--light-pink);
+}
+#pieceThree h3{
+    font-size: 5em;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    text-shadow: -3px 3px var(--dark-pink);
+    margin-bottom: 1vw;
+    padding-top: 1em;
+    line-height: 0.75em;
+}
+#pieceThree h4{
+    font-size: 3em;
+    font-family: var(--second-font);
+    margin-bottom: 1em;  
+}
+#pieceThree iframe{
+    width: 80vw;
+    height: 80vh;
+    border: white 5px solid;
+    border-radius: 15px;
+}
+
+/* Piece Four */
+#pieceFour{
+    width: 100vw;
+    height: auto;
+    background-image: url("../img/—Pngtree—dotted\ line\ pattern_3633087.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    background-color: var(--light-pink);
+}
+#pieceFour h3{
+    font-size: 2.5em;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    text-shadow: -3px 3px white;
+    margin-bottom: 1vw;
+    padding-top: 1em;
+    line-height: 0.75em;
+}
+#pieceFour h4{
+    font-size: 1.5em;
+    font-family: var(--second-font);
+    margin-bottom: 1em;  
+}
+#pieceFourImgs img{
+    box-shadow: -50 50 blue;
+    border: white 25px solid;
+    display: inline;
+    max-width: 25%;
+}
+/* Footer */
+#footer{
+    width: 100vw;
+    height: auto;
+    padding: 1vw 0;
+    background-color: var(--light-pink);
+     
+}
+#footer h5{
+    width: fit-content;
+    padding: 1vw;
+    font-size: 1.5em;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    text-shadow: -3px 3px var(--dark-pink);
+    border-radius: 15px;
+    background-color: white; 
+}
+#footer p{
+    padding: 1vw;
+    font-size: 1em;
+    font-family: var(--main-font);
+    text-transform: uppercase;
+    text-shadow: -3px 3px var(--dark-pink);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+    #socialBar{
+        margin-top: 55vh;
+        position: relative;
+    }
+    #socialBar img{
+        width: 10vw;
+        height: 10vw;
+    }
+    #indexTab{ 
+        display: none;
+    }
+    #index h2{
+        font-size: 7.5vw;
+    }
+    .indexTitle{
+        margin: 0 1em;
+        font-size: 2em;;
+    }
+    .indexAuthor{
+        font-size: 1em;
+        margin-bottom: 2.5em;
+    }
+    #indexBg{
+        width: 90vw;
+    }
+    #pieceOne h3{
+        font-size: 5em;
+        text-align: center;
+    }
+    #pieceOne h4{
+        font-size: 1.5em;  
+        text-align: center;
+    }
+    #pieceOne p{
+        font-size: 1.25em;
+        margin-bottom: 1em; 
+    }
+    #pieceTwo{
+        Padding: 0 5%;
+    }
+    #pieceTwoImg{
+        width: 90vw;
+    }
+    #pieceTwo p{
+        margin-bottom: 2em;
+    }
+    #pieceThree iframe{
+        width: 95vw;
+        border: 0;
+    }
+    #pieceFourImgs img{
+        max-width: 80%;
+    }
+    #footer h5{
+        font-size: 2em;
+        width: 75vw;   
+    }
+    #footer p{
+        font-size: 0.5em;
+    }
+}
