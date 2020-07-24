@@ -16,6 +16,10 @@ a{
 ul {
     list-style-type: none;
 }
+mark{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.05);
+}
 /* classes */
 .centered{
     margin-left: auto;
@@ -160,6 +164,7 @@ ul {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top center; 
+    background-color: black;
     color: white;
 }
 #pieceOne h3{
@@ -184,10 +189,7 @@ ul {
     font-family: var(--second-font);
     margin-bottom: 1em; 
 }
-mark{
-    color: white;
-    background-color:rgba(0, 0, 0, 0.05);
-}
+
 /* piece two */
 #pieceTwo{
     Padding: 0 15%;
@@ -317,6 +319,9 @@ mark{
 
 
 @media screen and (max-width: 1000px) {
+    #titlePage{
+        background-size: contain;  
+    }
     #socialBar{
         margin-top: 55vh;
         position: relative;
@@ -342,6 +347,9 @@ mark{
     #indexBg{
         width: 90vw;
     }
+    #pieceOne{
+        background-size: contain;        
+    }
     #pieceOne h3{
         font-size: 5em;
         text-align: center;
@@ -366,6 +374,11 @@ mark{
     #pieceThree iframe{
         width: 95vw;
         border: 0;
+    }
+    #pieceFour{
+        background-size: contain;
+        background-repeat: repeat;
+
     }
     #pieceFourImgs img{
         max-width: 80%;
